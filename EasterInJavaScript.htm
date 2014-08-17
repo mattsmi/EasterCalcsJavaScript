@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Calulate the date of Easter</title>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<h1>Calculate the Date of Easter</h1>
+	<script src="src/EasterCalcs.js" type="text/javascript"></script>
+	
+	<form name="UserInput">
+		Enter a year from AD 326 to AD 4099 ... <input name="YearEntry"
+			type="text" value="2000"> <input type="button"
+			value="Show Easters" onclick="ShowEasters(UserInput.YearEntry.value)"
+			id="button1" name="button1">
+	</form>
+
+	<div>
+		<p>&nbsp;</p>
+		<p id="dateOutputW">&nbsp;</p>
+		<p id="dateOutputO">&nbsp;</p>
+		<p id="dateOutputJ">&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+
+
+</body>
+</html>
